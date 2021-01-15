@@ -44,7 +44,7 @@ for i in Iris_dis.columns:
     Iris_dis[i].plot.bar()
     plt.show()
 
-
+sns.pairplot(Iris_with_cluster,hue='cluster')
 
 
 
