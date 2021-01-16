@@ -57,3 +57,4 @@ sns.pairplot(wine_cluster_3,hue='cluster')
 # Cluster 1: High Color Intensity, Non flavanoid phenols, Malic acid; Less OD280, Hue, Pronathocyanins, Flavanoids
 # Cluster 2: Less Color intensity, Alcohol
 
+
