@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 16 12:32:05 2021
 
-@author: Irfan
-"""
+
 import pickle
 import numpy as np
 import pandas as pd
