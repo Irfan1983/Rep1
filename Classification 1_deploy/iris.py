@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, roc_curve, auc
-
+import pickle
 Iris_Data=pd.read_csv('iris.csv')
 Iris_Data.isnull().sum()
 
@@ -31,3 +31,5 @@ pd.crosstab(Iris_Pre_Test,Test_Y)
 Model_FileLocation="Iris_KNN.sav"
 Model_FileHandler=open(Model_FileLocation,"wb")
 pickle.dump(KNeigh_Model,Model_FileHandler)
+
+
